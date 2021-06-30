@@ -1,0 +1,30 @@
+---
+canvas: "https://pbinkley.github.io/annonatate/images/scan_20210223050400_0013.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "So blue!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-06-30T17:41:04.625Z",
+            "modified": "2021-06-30T17:41:13.004Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate/images/scan_20210223050400_0013.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:36.28723907470703,60.113887786865234,122.2655258178711,178.54648208618164"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/bf29f633-5fed-4a1b-b1bf-95647331d857.json"
+}
