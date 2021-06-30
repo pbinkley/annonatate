@@ -1,0 +1,9 @@
+---
+canvas_id: "https://pbinkley.github.io/annonatate/images/scan_20210223050400_0013.jpg"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"resources": [{{ annotations | join: ","}}] }
