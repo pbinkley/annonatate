@@ -1,0 +1,49 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://pbinkley.github.io/annonatate/manifests/0002386/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Test 001",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": "none"
+    }
+  ],
+  "description": "Test image 001",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://iiif.lib.ncsu.edu/iiif/0002386/info.json",
+          "@type": "sc:Canvas",
+          "label": "Test 001",
+          "height": 4990,
+          "width": 6239,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/0002386/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4990,
+                "width": 6239,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/0002386",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.ncsu.edu/iiif/0002386/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
