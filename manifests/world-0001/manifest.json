@@ -4,14 +4,14 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://pbinkley.github.io/annonatate/manifests/world-0001/manifest.json",
   "@type": "sc:Manifest",
-  "label": "Test 001",
+  "label": "Test 002",
   "metadata": [
     {
       "label": "rights",
       "value": "none"
     }
   ],
-  "description": "Test image 001",
+  "description": "Test image 002",
   "viewingDirection": "left-to-right",
   "sequences": [
     {
@@ -20,7 +20,7 @@
         {
           "@id": "https://www.wallandbinkley.com/rcb/tiles/images/world-0001/info.json",
           "@type": "sc:Canvas",
-          "label": "Test 001",
+          "label": "Test 002",
           "height": 3282,
           "width": 1784,
           "images": [
