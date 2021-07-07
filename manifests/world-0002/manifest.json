@@ -1,0 +1,49 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://pbinkley.github.io/annonatate/manifests/world-0002/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Test 003",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": "none"
+    }
+  ],
+  "description": "Test image 003",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://www.wallandbinkley.com/rcb/tiles/images/world-0002/info.json",
+          "@type": "sc:Canvas",
+          "label": "Test 003",
+          "height": 3281,
+          "width": 1795,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://www.wallandbinkley.com/rcb/tiles/images/world-0002/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3281,
+                "width": 1795,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://www.wallandbinkley.com/rcb/tiles/images/world-0002",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://www.wallandbinkley.com/rcb/tiles/images/world-0002/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
