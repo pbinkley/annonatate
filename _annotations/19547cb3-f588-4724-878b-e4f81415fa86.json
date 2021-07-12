@@ -1,0 +1,30 @@
+---
+canvas: "https://pbinkley.github.io/annonatate/images/scan_20210223050407_0019.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "A branch",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-07-12T20:21:29.272Z",
+            "modified": "2021-07-12T20:21:30.687Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate/images/scan_20210223050407_0019.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:364.18359375,325.7713928222656,66.83917236328125,44.5594482421875"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/19547cb3-f588-4724-878b-e4f81415fa86.json"
+}
