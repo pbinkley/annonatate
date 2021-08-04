@@ -3,28 +3,28 @@ canvas: "https://iiif.lib.ncsu.edu/iiif/0002386/info.json"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Here's a crane",
-            "purpose": "commenting",
+            "created": "2021-07-06T16:53:52.647Z",
             "creator": {
                 "id": "pbinkley",
                 "name": "Peter Binkley"
             },
-            "created": "2021-07-06T16:53:52.647Z",
-            "modified": "2021-07-06T16:53:54.917Z"
+            "modified": "2021-08-04T21:08:43.337Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Here's a crane (edited)"
         }
     ],
+    "id": "https://pbinkley.github.io/annonatate/annotations/142a41cd-6bb8-4052-a2b3-a300bfd15a9a.json",
     "target": {
         "source": "https://iiif.lib.ncsu.edu/iiif/0002386/info.json",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3097.68505859375,809.8154907226562,725.33837890625,818.0507202148438"
+            "value": "xywh=pixel:3097.68505859375,809.8154907226562,851.985107421875,921.6705932617188"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/annotations/142a41cd-6bb8-4052-a2b3-a300bfd15a9a.json"
+    "type": "Annotation"
 }
