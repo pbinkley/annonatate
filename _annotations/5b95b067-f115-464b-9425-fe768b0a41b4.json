@@ -1,0 +1,34 @@
+---
+canvas: "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj10.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "what a beard!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-09-09T16:01:13.931Z",
+            "modified": "2021-09-09T16:01:17.481Z"
+        }
+    ],
+    "target": {
+        "source": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/canvas/obj10.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1039.2452392578125,983.0213012695312,499.329833984375,603.5855102539062"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pbinkley.github.io/annonatate-wax/img/derivatives/iiif/obj10/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5b95b067-f115-464b-9425-fe768b0a41b4.json"
+}
