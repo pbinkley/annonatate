@@ -1,0 +1,33 @@
+---
+canvas: "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Parc Monceau",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pbinkley",
+                "name": "Peter Binkley"
+            },
+            "created": "2021-10-18T15:31:57.218Z",
+            "modified": "2021-10-18T15:31:59.145Z"
+        }
+    ],
+    "target": {
+        "source": "https://cdm17272.contentdm.oclc.org/digital/iiif/agdm/14057/canvas/c0",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3286.010498046875,1901.934326171875 3326.01025390625,1971.0252685546875 3365.101318359375,1998.2979736328125 3495.101318359375,1983.75244140625 3601.46484375,1916.479736328125 3599.646728515625,1879.20703125 3587.82861328125,1819.20703125 3449.646728515625,1847.3887939453125 3450.555908203125,1847.3887939453125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dnoneill.github.io/annotate/manifests/parismap.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a8350ede-ebd6-4d65-8776-c8ad6212da34.json"
+}
